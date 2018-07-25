@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - echo $key
+  - echo $key > abc
+  - cat abc
